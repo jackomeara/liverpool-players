@@ -1,5 +1,10 @@
 package com.example.ca;
 
+/**
+ * A class representing a individual player data model.
+ * This data is read from the players.xml file.
+ *
+ */
 public class Player {
     private String name;
     private String position;

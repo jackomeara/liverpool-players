@@ -10,6 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.List;
 
+/**
+ * The biography activity displays a brief text profile of the player.
+ * It also has a button where the highlights of a player can be viewed (HighlightsWebViewActivity).
+ */
 public class BioActivity extends AppCompatActivity {
     TextView name = null;
     TextView bio = null;

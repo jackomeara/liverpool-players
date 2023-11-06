@@ -13,6 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * This parser reads in the players xml file and parses it into a list of Player objects. This parser
+ * is used in the PlayerListAdapter.
+ */
 public class PlayerParser {
     private Context context;
 

@@ -14,6 +14,10 @@ import android.widget.Toast;
 
 import java.util.List;
 
+/**
+ * The main activity is the list of all players, and is launched when the app is opened.
+ * Basic details about each player are displayed, and each item can be clicked into to view the player.
+ */
 public class MainActivity extends AppCompatActivity implements RecyclerViewInterface {
     RecyclerView list = null;
     PlayerParser playerParser = null;

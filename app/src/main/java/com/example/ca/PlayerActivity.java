@@ -12,6 +12,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.List;
 
+/**
+ * This activity displays basic information about a player, as well as an image of them.
+ * Career stats for the club are shown, as well as a Read More button where they can read the
+ * player's biography
+ */
 public class PlayerActivity extends AppCompatActivity {
 
     Context context;

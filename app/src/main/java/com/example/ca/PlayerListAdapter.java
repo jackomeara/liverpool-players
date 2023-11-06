@@ -60,6 +60,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/**
+ * Adapter class for displaying a list of players in a RecyclerView.
+ * This class extends RecyclerView.Adapter and is designed to work with a RecyclerView to display a
+ * list of players.
+ */
 public class PlayerListAdapter extends RecyclerView.Adapter<PlayerListAdapter.ViewHolder> {
     Context context;
     int layout;
